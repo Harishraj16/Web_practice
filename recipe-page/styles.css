@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+h1 {
+    font-family: "Playfair Display", serif;
+}
+
+h2 {
+    font-family:  "Open Sans";
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif; /* For normal text */
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    width: 40%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p,li,td{
+    font-size: 12px;
+}
+
+hr{
+    color: black;
+}
+
+h1,h2{
+    padding: 15px 0;
+}
+
+h4{
+    margin: 0 0 10px 0;
+    color: rgb(127, 5, 26);
+}
+hr{
+    margin: 20px 0 0 0;
+}
+
+.prep-box{
+    background-color: rgb(255, 230, 235);
+    padding: 10px;
+    margin: 15px 15px 0 15px;
+    border-radius: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+h2,tr>:nth-last-child(1){
+    color: brown;
+}
+table {
+    border-collapse: collapse;
+}
+
+.line{
+    border-bottom: 0.5px solid #ccc;
+}
+
+td {
+    padding: 8px;
+    padding-left: 50px;
+}
+
+ol,ul{
+    padding-left: 15px;
+}
